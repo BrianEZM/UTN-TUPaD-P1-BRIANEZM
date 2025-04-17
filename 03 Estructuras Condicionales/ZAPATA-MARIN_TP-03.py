@@ -175,3 +175,15 @@ dia = input("¿Qué día es?: ")
 
 estacion = determinar_estacion(hemisferio, mes, dia)
 print(f"En el hemisferio {hemisferio.upper()}, la estación actual es: {estacion}")
+
+# Autoevaluacion preg10
+print("Autoevaluacion preg10 code-test: ")
+
+edad = int(input("Por favor, ingrese su edad en años: "))
+
+if 65 > edad and edad >= 18:
+    print("Debes votar obligatoriamente.")
+elif 18 > edad and edad >= 16 or edad >= 65:
+    print("Puedes votar, pero no es obligatorio.")
+else:
+    print("No puedes votar.")
