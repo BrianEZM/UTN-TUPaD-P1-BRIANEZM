@@ -24,7 +24,7 @@ numeros_ejerc5 = [8, 15, 3, 22, 7]
 numeros_ejerc5.remove(max(numeros_ejerc5))
 print(numeros_ejerc5)
 explicacion = "Este código primero declara e inicializa una lista con valores numéricos. Luego usa el método “remove()” para eliminar el elemento recibido por parametro. Este valor será el mas grande de la lista ya que se usa el método “max()” con la lista declarada. Por ultimo se imprime la lista con lo valores correspondientes, que serán los inicializados, pero sin el 22 (el valor máximo removido)."
-
+print(explicacion)
 # 6.
 lista_numeros = list(range(10, 31, 5))
 print(lista_numeros[:2])
